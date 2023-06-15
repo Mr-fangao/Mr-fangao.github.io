@@ -1,0 +1,1 @@
+import{C as e}from"./CesiemEarth-78c233a6.js";import{_ as t}from"./_plugin-vue_export-helper-c4cb8a60.js";import{o,f as s,r as _,a,m as r}from"./index-6a96fcd3.js";const c={__name:"test2",props:{},setup(n){return o(()=>{}),s(()=>{}),_(0),(p,m)=>(a(),r(e))}},i=t(c,[["__scopeId","data-v-ec03740d"]]);export{i as default};
