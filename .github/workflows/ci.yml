@@ -21,10 +21,4 @@ jobs:
             - run: npm install
             - run: npm run build
             - name: Vite Github Pages Deployer
-              uses: skywarth/vite-github-pages-deployer@v1.1.0
-            #- name: Deploy # 部署
-            #  uses: JamesIves/github-pages-deploy-action@v4.3.3
-              with:
-                  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 也就是我们刚才生成的 secret
-                  branch: gh-pages # 部署后提交到那个分支
-                  folder: dist # 这里填打包好的目录名称
+              uses: skywarth/vite-github-pages-deployer@v1.2.0
