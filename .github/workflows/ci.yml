@@ -4,6 +4,7 @@ on:
     push:
         branches:
             - main # 这里只配置了main分支
+            
 permissions:
   contents: read
   pages: write
