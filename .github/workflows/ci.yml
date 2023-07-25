@@ -26,5 +26,5 @@ jobs:
                   node-version: "16.x"
             - run: node -v
             - name: Vite Github Pages Deployer
-              uses: skywarth/vite-github-pages-deployer@v1.2.0
+              uses: skywarth/vite-github-pages-deployer@v1.2.0 #version updated
               id: deploy_to_pages
